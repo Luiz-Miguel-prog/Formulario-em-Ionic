@@ -1,0 +1,58 @@
+body {
+  background-color: #121212;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: red;
+  margin-left: 11vh;
+}
+
+form {
+  max-width: 300px;
+  margin: 0 auto;
+  margin-left: 25%;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.Cad{
+  max-width: 70vh;
+  margin-left: 4vh;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  width: 70%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+}
+
+input[type="text"]:read-only {
+  background-color: #555;
+}
+
+button {
+  background-color: red;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 2%;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: red;
+}
